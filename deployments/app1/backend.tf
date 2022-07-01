@@ -1,6 +1,6 @@
 terraform {
   backend "gcs" {
-    bucket  = "TFSTATE_BUCKET"
+    bucket  = "tvdemo"
     prefix  = "tf-demo/app1"
   }
 }
